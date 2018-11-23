@@ -1,5 +1,5 @@
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { getStyle, hasClass, addClass, removeClass } from '../src/utils/dom';
+import { getStyle, hasClass, addClass, removeClass } from '../../../src/utils/dom';
 // import ElCheckbox from 'element-ui/packages/checkbox';
 import YTooltip from '../packages/tooltip';
 // import debounce from 'throttle-debounce/debounce';

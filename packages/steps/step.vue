@@ -23,7 +23,7 @@
 </template>
 <script>
   import Icon from '../icon'
-  import emitter from '../src/mixins/emitter'
+  import emitter from '../../src/mixins/emitter'
   export default {
     name: 'YStep',
     components: { Icon },

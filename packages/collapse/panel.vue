@@ -13,7 +13,7 @@
 </template>
 <script>
 import Icon from "../icon";
-import emitter from '../src/mixins/emitter'
+import emitter from '../../src/mixins/emitter'
 import Collapse from './collapse.js'
 export default {
     name: 'Panel',

@@ -23,10 +23,10 @@
 </template>
 <script>
 import {Button} from "../button";
-import docClick from "../src/directives/docClick";
-import transferDom from "../src/directives/transferDom";
-import emitter from '../src/mixins/emitter'
-import resize from '../src/directives/winScroll'
+import docClick from "../../src/directives/docClick";
+import transferDom from "../../src/directives/transferDom";
+import emitter from '../../src/mixins/emitter'
+import resize from '../../src/directives/winScroll'
 export default {
   compontes: { "y-button":Button },
   directives: { docClick, transferDom, resize },

@@ -1,4 +1,4 @@
-import { hasClass, addClass, removeClass } from '../src/utils/dom';
+import { hasClass, addClass, removeClass } from '../../../src/utils/dom';
 // import ElCheckbox from 'element-ui/packages/checkbox';
 // import ElTag from 'element-ui/packages/tag';
 import Vue from 'vue';

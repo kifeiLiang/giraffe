@@ -16,10 +16,10 @@
   </div>
 </template>
 <script>
-import emitter from "../src/mixins/emitter";
-import transferDom from "../src/directives/transferDom";
-import winScroll from "../src/directives/winScroll";
-import docClick from "../src/directives/docClick";
+import emitter from "../../src/mixins/emitter";
+import transferDom from "../../src/directives/transferDom";
+import winScroll from "../../src/directives/winScroll";
+import docClick from "../../src/directives/docClick";
 export default {
   name: "YSelect",
   directives: { docClick, transferDom, winScroll },

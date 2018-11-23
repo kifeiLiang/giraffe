@@ -111,8 +111,8 @@ import TableHeader from './table-header.js';
 import TableStore from './table-store';
 import TableLayout from './table-layout';
 import debounce from 'throttle-debounce/debounce';
-import { addResizeListener, removeResizeListener } from '../src/utils/resize-event';
-import Mousewheel from '../src/directives/mousewheel';
+import { addResizeListener, removeResizeListener } from '../../../src/utils/resize-event';
+import Mousewheel from '../../../src/directives/mousewheel';
 // import TableColumn from './table-column';
 let tableIdSeed = 1;
 export default {

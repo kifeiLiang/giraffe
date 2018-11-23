@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import emitter from '../src/mixins/emitter'
+import emitter from '../../src/mixins/emitter'
 export default {
   name: "YInput",
   mixins: [emitter],
