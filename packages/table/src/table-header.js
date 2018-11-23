@@ -2,7 +2,7 @@ import { hasClass, addClass, removeClass } from '../../../src/utils/dom';
 // import ElCheckbox from 'element-ui/packages/checkbox';
 // import ElTag from 'element-ui/packages/tag';
 import Vue from 'vue';
-import YTooltip from '../packages/tooltip';
+import YTooltip from '../../../packages/tooltip';
 // import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';
 
