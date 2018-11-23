@@ -13,7 +13,7 @@
 </template>
 <script>
 import Collapse from '../collapse/collapse.js'
-import emitter from 'yt-ui/src/mixins/emitter'
+import emitter from '../src/mixins/emitter'
 export default {
   name: "YSubMenu",
   mixins: [emitter],

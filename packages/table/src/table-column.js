@@ -1,7 +1,7 @@
-import {Checkbox as YCheckbox} from 'yt-ui/packages/checkbox';
+import {Checkbox as YCheckbox} from '../packages/checkbox';
 // import ElTag from 'y-ui/packages/tag';
-import objectAssign from 'yt-ui/src/utils/merge';
-import { getPropByPath } from 'yt-ui/src/utils/util';
+import objectAssign from '../src/utils/merge';
+import { getPropByPath } from '../src/utils/util';
 
 let columnIdSeed = 1;
 

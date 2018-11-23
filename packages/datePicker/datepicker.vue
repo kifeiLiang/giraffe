@@ -17,10 +17,10 @@
 </template>
 <script>
 import calendar from "./datecalendar";
-import emitter from "yt-ui/src/mixins/emitter";
-import winScroll from "yt-ui/src/directives/winScroll";
-import transferDom from "yt-ui/src/directives/transferDom";
-import docClick from "yt-ui/src/directives/docClick";
+import emitter from "../src/mixins/emitter";
+import winScroll from "../src/directives/winScroll";
+import transferDom from "../src/directives/transferDom";
+import docClick from "../src/directives/docClick";
 export default {
   name: "YDatePicker",
   directives: { docClick, transferDom, winScroll },

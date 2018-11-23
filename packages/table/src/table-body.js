@@ -1,7 +1,7 @@
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { getStyle, hasClass, addClass, removeClass } from 'yt-ui/src/utils/dom';
+import { getStyle, hasClass, addClass, removeClass } from '../src/utils/dom';
 // import ElCheckbox from 'element-ui/packages/checkbox';
-import YTooltip from 'yt-ui/packages/tooltip';
+import YTooltip from '../packages/tooltip';
 // import debounce from 'throttle-debounce/debounce';
 import LayoutObserver from './layout-observer';
 

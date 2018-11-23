@@ -5,7 +5,7 @@
 </template>
 <script>
 import {Button}from '../button'
-import emitter from 'yt-ui/src/mixins/emitter'
+import emitter from '../src/mixins/emitter'
 export default {
   name: 'YRadioButton',
   components: { Button },

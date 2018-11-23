@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import debounce from 'throttle-debounce/debounce';
-import merge from 'yt-ui/src/utils/merge';
-import { hasClass, addClass, removeClass } from 'yt-ui/src/utils/dom';
+import merge from '../src/utils/merge';
+import { hasClass, addClass, removeClass } from '../src/utils/dom';
 import { orderBy, getColumnById, getRowIdentity } from './util';
 
 const sortData = (data, states) => {

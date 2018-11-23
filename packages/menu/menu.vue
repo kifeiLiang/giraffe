@@ -4,7 +4,7 @@
   </ul>
 </template>
 <script>
-import emitter from 'yt-ui/src/mixins/emitter'
+import emitter from '../src/mixins/emitter'
 export default {
   name: "YMenu",
   mixins: [emitter],
