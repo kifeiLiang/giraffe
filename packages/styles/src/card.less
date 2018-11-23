@@ -1,0 +1,60 @@
+@import './global.less';
+.k-card {
+    background: #fff;
+    border:1px solid #ccc;
+    width:482px;
+    height: 410px;
+    display:inline-block;
+    .k-card-img{
+        width:482px;
+        height: 260px;
+        img{
+            width:100%;
+            height: auto;
+        }
+    }
+    .k-card-body{
+        padding:20px 30px 0 30px;
+        box-sizing: border-box;
+        .k-card-title {
+            font-size: 28px;
+            color:#000;
+            margin-bottom:10px;
+            &:hover{
+                color:@main;
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                color:#000;
+                &:hover{
+                    color:@main;
+                    text-decoration: underline;
+                } 
+            }
+        }
+        .k-card-desc{
+           font-size: 14px;
+           color:#333;
+           margin-bottom:10px;
+           &:hover{
+            color:@main;
+            cursor: pointer;
+           }
+           a{
+                text-decoration: none;
+                color:#000;
+                &:hover{
+                    color:@main;
+                    text-decoration: underline;
+                } 
+            }
+        }
+        .k-card-date{
+           font-size: 16px;
+           color:#999;
+        }
+    }
+    
+    
+}

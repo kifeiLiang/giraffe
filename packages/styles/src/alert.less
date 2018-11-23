@@ -1,0 +1,67 @@
+@import './global.less';
+.k-alert {
+   margin-bottom: 16px;
+   font-size: 14px;
+   color:#4c4c4c;
+   padding: 9px 15px 9px 20px;
+   box-sizing: border-box;
+   position: relative;
+   .k-desc{
+      color:#7c7c7c;
+      font-size: 14px;
+      margin-top:5px;
+      padding-left:24px;
+      box-sizing: border-box;
+   }
+}
+
+.k-alert-close {
+   font-size: 12px;
+   position: absolute;
+   right: 16px;
+   top: 8px;
+   line-height: 22px;
+   overflow: hidden;
+   cursor: pointer;
+   &::before{
+      content: '\e849';
+      font-family: iconfont;
+      color: #999;
+   }
+}
+
+.k-alert-success {
+   background: #D9F8CD;
+   border: 1px solid #C5EBB6;
+   &>[class^="icon-"], [class*=" icon-"] {
+      color: @success;
+      margin-right:3px;
+   }
+}
+
+.k-alert-error {
+   background: #fbdfdf;
+   border: 1px solid #f6d0d0;
+   &>[class^="icon-"], [class*=" icon-"] {
+      color: @danger;
+      margin-right:3px;
+   }
+}
+
+.k-alert-info {
+   background: #d5ecfc;
+   border: 1px solid #badbf2;
+   &>[class^="icon-"], [class*=" icon-"] {
+      color: @main;
+      margin-right:3px;
+   }
+}
+
+.k-alert-warning {
+   background: #feedc3;
+   border: 1px solid #f3dda5;
+   &>[class^="icon-"], [class*=" icon-"] {
+      color: @warning;
+      margin-right:3px;
+   }
+}

@@ -1,0 +1,103 @@
+@import './global.less';
+.k-notice {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   position: fixed;
+   z-index: 1010;
+   margin-right: 24px;
+   right: 0px;
+   top: 24px;
+   bottom: auto;
+   .k-notice-notice {
+      width:400px;
+      transition: all .3s ease-in-out;
+      padding: 18px 18px 18px 25px;
+      -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      background: #fff;
+      position: relative;
+      margin-bottom: 16px;
+      overflow: hidden;
+      border-left:5px solid @main;
+      box-sizing: border-box;
+   }
+   .k-notice-title {
+      margin-right: 16px;
+      font-size: 16px;
+      color: #333;
+      display: inline-block;
+      vertical-align: middle;
+   }
+   .k-notice-desc {     
+      font-size: 14px;
+      color: #666;
+      margin-top:5px;
+      
+   }
+   .k-notice-close {
+      position: absolute;
+      right: 18px;
+      top: 22px;
+      outline: none;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      &::before {
+         content: '\e849';
+         font-family: iconfont;
+         color: #999;
+         font-size: 16px;
+      }
+   }
+   .k-notice-info, .k-notice-error, .k-notice-success, .k-notice-warning {
+      .k-notice-notice-content {
+         padding-left: 35px;
+         &::before {
+            position: absolute;
+            left: 22px;
+            top: 17px;
+            font-family: iconfont;
+            font-size: 24px;
+         }
+      }
+   }
+   .k-notice-info .k-notice-notice-content {
+      &::before {
+         color: @main;
+         content: '\e63d';
+      }
+   }
+   .k-notice-error .k-notice-notice-content {
+      &::before {
+         content: '\e61a';
+         color: @danger;
+      }
+   }
+   .k-notice-success .k-notice-notice-content {
+      &::before {
+         content: '\e658';
+         color: @success;
+      }
+   }
+   .k-notice-warning .k-notice-notice-content {
+      &::before {
+         content: '\e619';
+         color: @warning;
+      }
+   }
+   .k-notice-info{
+      border-left:5px solid @main;
+   }
+   .k-notice-success{
+      border-left:5px solid @success;
+   }
+   .k-notice-warning{
+      border-left:5px solid @warning;
+   }
+   .k-notice-error{
+      border-left:5px solid @danger;
+   }
+}
