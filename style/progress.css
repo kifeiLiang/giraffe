@@ -1,0 +1,1 @@
+.progress{width:250px}.progress .progress_outer{width:200px;height:3px;background:#eee;display:inline-block;vertical-align:middle;position:relative;overflow:hidden}.progress .progress_outer .progress_in{height:3px;background:#037dff;position:absolute;left:0;top:0}.progress .percent{font-size:12px;color:#999;display:inline-block;vertical-align:middle}
